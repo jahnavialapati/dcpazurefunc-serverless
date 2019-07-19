@@ -1,0 +1,17 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.24",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "methods": [
+        "get"
+      ],
+      "authLevel": "function",
+      "name": "request"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/PromoServiceMongoDB.dll",
+  "entryPoint": "PromoServiceMongoDB.Controllers.ValuesController.GetValue"
+}
